@@ -18,7 +18,7 @@ app.get("/", (c) => {
 });
 
 app.get("/code", (c) => {
-  return c.text("Send a PUT request with a JSON body { output: string }");
+  return c.text("Send a POST request with a JSON body { output: string }");
 });
 
 app.post("/code", async (c) => {
